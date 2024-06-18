@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import './About.css'; 
+import './About.css';
+import omaKuva from './assets/omaKuva.jpg'; 
 
 function About() {
 
   const handleClick = (e) => e.target.textContent = "Press the picture and it will disappear"
-  const imageUrl = './src/assets/omaKuva.jpg';
   const handleImgClick = (e) => e.target.style.display = "none"
 
   const [name, setName] = useState("Guest")
@@ -52,7 +52,7 @@ function About() {
       <h2>About Us</h2>
       <p>This is the About page of the website.</p>
       <button style={styles} onClick={(e) => handleClick(e)}>Click me!</button>
-      <img onClick={(e) =>handleImgClick(e)} src={imageUrl}></img>
+      <img onClick={(e) =>handleImgClick(e)} src={omaKuva} alt="oma kuva"></img>
       <Link to="/" className="button">Go back to Home</Link>
 
       <input value={name} onChange={handleNameChange} />
