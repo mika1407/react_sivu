@@ -1,0 +1,110 @@
+.services {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.info {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:active {
+  background-color: #003d80;
+}
+
+.counter-container {
+  margin: 20px 0;
+}
+
+.count-display {
+  font-size: 2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.counter-btn {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.counter-btn:hover {
+  background-color: #218838;
+}
+
+.counter-btn:active {
+  background-color: #1e7e34;
+}
+
+.car-container{
+  margin: 5px;
+}
+
+.car-container p{
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.car-container input {
+  margin: 5px;
+  padding: 2px;
+  height: 2em;
+  border: 3px solid hsl(0, 0%, 80%);
+  border-radius: 3px;
+}
+
+.foods input{
+  margin: 5px;
+  padding: 2px;
+  height: 2em;
+  border: 3px solid hsl(0, 0%, 80%);
+  border-radius: 3px;
+}
+
+.foods li{
+  list-style-type: none;
+  padding: 0; 
+  margin: 5px;
+}
+
+.foods button{
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
