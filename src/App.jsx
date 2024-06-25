@@ -15,6 +15,7 @@ import { Services } from './Services';
 import { ColorPicker } from './ColorPicker';
 import { Contact } from './Contact';
 import { ToDoList } from './ToDoList';
+import { DigitalClock } from './DigitalClock';
 import './App.css'; 
 
 function Home() {
@@ -34,6 +35,7 @@ function Home() {
     return(
         <>
         <UserGreeting isLoggedIn={true} username="Mika"/>
+        <DigitalClock />
         <div className="cards-container">
             <Card img={Pic} name="Mika" do="I make websites."/>
             <Card img={Pic2} name="Ilmari" do="I make YouTube videos and play video games."/>

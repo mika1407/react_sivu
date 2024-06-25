@@ -172,7 +172,7 @@
 
 .contact{
   padding: 20px;
-  max-width: 600px;
+  width: 600px;
   margin: 0 auto;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -256,3 +256,44 @@ ol{
   font-size: 1.4rem;
   margin-left: 10px;
 }
+
+/* clock */
+.clock-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Koko näytön korkeus */
+  background-color: #f0f0f0; /* Voit muuttaa taustavärin tarpeen mukaan */
+}
+.clock-container {
+  width: 70%; /* Leveys 70% näytöstä */
+  height: 300px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/silja.jpg); /* Taustakuva */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  border-radius: 10px; /* Pyöristetyt kulmat */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Varjo */
+
+}
+
+.clock {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px; /* Kellon kontainerin padding */
+  border-radius: 10px; /* Pyöristetyt kulmat */
+  text-align: center; /* Tekstin keskitys */
+}
+
+.clock span {
+  font-size: 4em; /* Fonttikoko */
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+}
+
+
