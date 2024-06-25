@@ -16,6 +16,7 @@ import { ColorPicker } from './ColorPicker';
 import { Contact } from './Contact';
 import { ToDoList } from './ToDoList';
 import { DigitalClock } from './DigitalClock';
+import { ComponentA } from './ComponentA';
 import './App.css'; 
 
 function Home() {
@@ -47,6 +48,7 @@ function Home() {
         <Student name="Matti" age={30} isStudent={false}/>
         <Student name="Heli" age={18} isStudent={true}/>
         <Student />
+        <ComponentA />
         <Food/>
         {fruits.length > 0 ? <List items={fruits} category="Fruits and calories"/> : null}
         {vegetables.length > 0 && <List items={vegetables} category="Vegetables and calories"/>}    
